@@ -14,7 +14,7 @@ const [form, setForm] = useState({
 
 const handleSubmit = (e) => {
     e.preventDefault()
-    fetch(``, {
+    fetch(`http://localhost:4000/books`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -61,6 +61,11 @@ return (
         <button type="button" className="btn btn-success primary btn-sm" onClick={handleSubmit}>Submit</button>
         <hr/>
         </form>
+        <div className="go-home">
+        <a href="/">
+          <button className="home-btn">Home</button>
+        </a> 
+        </div>
         
     </>
 )

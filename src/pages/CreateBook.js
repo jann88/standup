@@ -31,7 +31,9 @@ const handleSubmit = (e) => {
     .then(r=>r.json())
     .then(d=>console.log(d))
     .catch(error=>console.log(error));
-    document.querySelector('.form').reset()
+    document.querySelector('.form').reset() 
+    alert('Your book has been successfully submitted')
+
 };
 
 const handleChange = (e)=>{
@@ -39,10 +41,7 @@ const handleChange = (e)=>{
  
    
 }
-// function Redirect () {
-//     let navigate = useNavigate();
-//     function handleSubmit() {
-//         navigate('/home')
+
 
 
 
@@ -61,11 +60,11 @@ return (
         <button type="button" className="btn btn-success primary btn-sm" onClick={handleSubmit}>Submit</button>
         <hr/>
         </form>
-        <div className="go-home">
+        {/* <div className="go-home">
         <a href="/">
           <button className="home-btn">Home</button>
         </a> 
-        </div>
+        </div> */}
         
     </>
 )

@@ -1,10 +1,15 @@
 import React from "react";
 
 function Landing () {
-    return(
-        <>
-        <h1>Hello</h1>
-        </>
-    )
+    
+        
+        return (
+            <>
+           <h1>Welcome to Our Book app</h1> 
+            </>
+        )
+
+        
+    
 }
 export default Landing;

@@ -4,18 +4,11 @@ import About from './pages/About';
 import Navbar from './pages/Navbar';
 import Landing from './pages/Landing';
 import CreateBook from './pages/CreateBook';
-
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 
 
 function App() {
-  // state declaration useState
-  // get all books
-  //update books
-  //edit
-  //delete
-  //useParams 
-  //useNavigate
+ 
   return (
     <>
    

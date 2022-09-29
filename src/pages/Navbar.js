@@ -16,6 +16,9 @@ function Navbar () {
                 <NavLink to="/books">Home</NavLink>
             </li>
             <li>
+                <NavLink to="/createbook">Newbook</NavLink>
+            </li>
+            <li>
                 <NavLink to="/about">About</NavLink>
             </li>
                 
